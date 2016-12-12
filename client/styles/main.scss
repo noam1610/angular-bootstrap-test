@@ -1,0 +1,17 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap";
+@import "../../node_modules/bootstrap/dist/css/bootstrap-theme";
+.nav, .pagination, .carousel, .panel-title a {
+    cursor: pointer;
+}
+
+.full button span {
+    background-color: limegreen;
+    border-radius: 32px;
+    color: black;
+}
+
+.partially button span {
+    background-color: orange;
+    border-radius: 32px;
+    color: black;
+}
