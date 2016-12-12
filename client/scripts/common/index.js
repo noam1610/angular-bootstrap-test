@@ -26,6 +26,10 @@ module.exports = function(namespace) {
             url: '/bis',
             template: require('./views/bis.html'),
             controller: fullname + '.bis as vm'
+        }).state('tris', {
+            url: '/tris',
+            template: require('./views/tris.html'),
+            controller: fullname + '.tris as vm'
         });
     };
     configRoutes.$inject = configRoutesDeps;
